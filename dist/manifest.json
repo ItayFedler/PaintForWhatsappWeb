@@ -1,0 +1,22 @@
+{
+  "name": "Paint for Whatsapp™ Web",
+  "version": "2.0",
+  "manifest_version": 2,
+    
+  "description": "The best way to share your images with Whatsapp™ web",
+  "permissions": [
+    "contextMenus",
+    "<all_urls>",
+    "https://*/",
+    "http://*/"
+   ],
+   "icons": {
+    "48": "paint-for-whatsapp-48.png",
+    "128": "paint-for-whatsapp-128.png"
+  },
+  "background": { 
+    "scripts": ["script.js"]
+  },
+  "content_security_policy": "script-src 'self' https://code.jquery.com; object-src 'self'"
+  
+}
